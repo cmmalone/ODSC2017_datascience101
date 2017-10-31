@@ -10,7 +10,7 @@ The data for this workshop comes from the DrivenData.org ["Pump It Up"](https://
 
 
 ### Part 1: Scripted Model
-The scripted model is built in an ipython notebook, `scripted_model.ipynb`.  This notebook assumes you have the training data downloaded from drivendata.org and it's stored locally in files called `well_data.csv` (features) and `well_labels.csv` (labels).
+The scripted model is built in an ipython notebook, `scripted_model.ipynb`.  This notebook assumes you have the training data downloaded from drivendata.org and it's stored locally in files called `well_data.csv` (features) and `well_labels.csv` (labels).  
 
 This notebook goes through a few drafts of the steps of a modeling workflow, including transforming string categorical variables to integers (in the case of labels) or dummies (in the case of features), selecting the best features for model-building, and then building a multiclass random forest classifier for classification.
 
