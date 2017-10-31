@@ -14,6 +14,8 @@ The scripted model is built in an ipython notebook, `scripted_model.ipynb`.  Thi
 
 This notebook goes through a few drafts of the steps of a modeling workflow, including transforming string categorical variables to integers (in the case of labels) or dummies (in the case of features), selecting the best features for model-building, and then building a multiclass random forest classifier for classification.
 
+
+If you're following along with the workshop in San Francisco, or want to do some exercises on your own, there is a notebook called `scripted_notebook_to_fill_in.ipynb` that has cells strategically left blank that you can fill in.
 ### Part 2: Maintainable Model
 
 

@@ -299,19 +299,5 @@ def main():
 
 
 
-    # model #2
-    file_name_2 = "../../datasets/dataset_2.csv"
-    train_df, test_df = handle_data_files([file_name, file_name_2])
-    
-    tt, model = build_model(train_df)
-    predictions = run_predictions(model, tt, test_df)
-    
-    logger.info(predictions)
-
-    truth_y = encode_labels(test_df)["status_group"].tolist()
-    evaluate_model(truth_y, predictions)
-    logger.info("All done!")
-
-
 if __name__=="__main__":
     main()
