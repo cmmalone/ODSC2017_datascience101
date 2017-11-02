@@ -2,6 +2,8 @@
 ## Katie Malone, Civis Analytics
 ## Open Data Science Conference, San Francisco 2017 
 
+### [Link to accompanying slides](https://www.dropbox.com/s/qb9jh1adaei7o9i/DataScience101.pdf?dl=0)
+
 ### Introduction
 This is the git repo for the "Data Science 101" workshop at the Open Data Science Conference, Nov. 2 2017.  The aim of this workshop is to build a simple end-to-end data science modeling workflow in python, and then to take that workflow and make it generalized to repeated running on updated datasets.
 
